@@ -8,7 +8,8 @@ public:
 	void asetaNimi(std::string nimi);
 	std::string annaNimi();
 
-
+	void tulostaHelloWorld()const;
+	void tulostaHelloJollekkin(std::string nimi);
 private:
 	std::string hello = "Hello World";
 	std::string name = " and random stranger";
