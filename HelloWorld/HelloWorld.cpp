@@ -1,7 +1,10 @@
-#include <string>
+#include "HelloWorld.h"
+#include<string>
+#include<iostream>
 
-class HelloWordl {
-public:
-	std::string hello = "Hello World";
-	
-};
+HelloWorld::HelloWorld() {
+	std::cout << hello + name<<std::endl;
+}
+HelloWorld::HelloWorld(std::string nimi) :nimi_(nimi) {
+	std::cout << hello + " " + nimi << std::endl;
+}
